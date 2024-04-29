@@ -1,11 +1,12 @@
-import UserInput from './UserInput.jsx'
-import Result from './Result.jsx'
+import UserInput from './components/UserInput.jsx'
+import Result from './components/Result.jsx' 
+
 function App() {
   return (
-    <div>
-      <UserInput />
-      <Result />
-    </div>
+    <>
+    <UserInput />
+      {/* <Result /> */}
+    </>
   )
 }
 
