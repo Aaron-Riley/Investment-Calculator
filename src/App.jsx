@@ -5,7 +5,7 @@ function App() {
   return (
     <>
     <UserInput />
-      {/* <Result /> */}
+      <Result />
     </>
   )
 }
